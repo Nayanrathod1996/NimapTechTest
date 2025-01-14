@@ -191,10 +191,7 @@ namespace NimaApp.Controllers
         public ActionResult Details(int id) 
         { 
             var details= DbContextProdcm.Edit(id);
-        
-        
-        
-        
+                
         return View(details);
         }
 

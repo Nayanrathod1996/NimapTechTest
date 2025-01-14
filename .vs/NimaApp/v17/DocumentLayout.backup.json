@@ -7,43 +7,43 @@
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\models\\productmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\models\\productmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\productmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\views\\category\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\category\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:views\\category\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\models\\categorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\models\\categorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\categorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\views\\category\\getcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\category\\getcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:views\\category\\getcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\views\\product\\getdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\product\\getdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:views\\product\\getdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -54,8 +54,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -66,8 +70,7 @@
               "RelativeToolTip": "Models\\ProductMaster.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:51:43.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T12:51:43.138Z"
             },
             {
               "$type": "Document",
@@ -79,8 +82,7 @@
               "RelativeToolTip": "Views\\Category\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T12:15:31.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T12:15:31.057Z"
             },
             {
               "$type": "Document",
@@ -92,8 +94,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:09:54.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T12:09:54.016Z"
             },
             {
               "$type": "Document",
@@ -118,8 +119,7 @@
               "RelativeToolTip": "Models\\CategoryMaster.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T11:43:36.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T11:43:36.847Z"
             },
             {
               "$type": "Document",
@@ -129,7 +129,7 @@
               "RelativeDocumentMoniker": "Views\\Product\\CreateProduct.cshtml",
               "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Views\\Product\\CreateProduct.cshtml",
               "RelativeToolTip": "Views\\Product\\CreateProduct.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAEBlwAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-14T11:25:44.728Z",
               "EditorCaption": ""
@@ -144,8 +144,7 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAuwDoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T11:15:43.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T11:15:43.012Z"
             },
             {
               "$type": "Document",
@@ -183,8 +182,7 @@
               "RelativeToolTip": "Models\\DbContext.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAYwFUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T10:14:50.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T10:14:50.108Z"
             },
             {
               "$type": "Document",
@@ -194,7 +192,7 @@
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAwHcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAuwL4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T08:01:13.572Z",
               "EditorCaption": ""
