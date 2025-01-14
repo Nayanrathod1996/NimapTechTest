@@ -1,0 +1,99 @@
+﻿@model IEnumerable<NimaApp.Models.ProductMaster>
+
+@{
+    ViewBag.Title = "getdata";
+}
+
+@if (TempData["deleteMsg"] != null)
+{
+   <div class="alert alert-danger alert-dismissible">
+       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+       <strong>@TempData["deleteMsg"]</strong>
+   </div>
+
+}
+
+
+@if (TempData["Updatemsg"] != null)
+{
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>@TempData["Updatemsg"]</strong>
+    </div>
+}
+@if (TempData["CreateProduct"] != null)
+{
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>@TempData["CreateProduct"]</strong>
+    </div>
+}
+
+<table class="table table-dark">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </th>
+        <th>Details</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+
+            <td>
+                @Html.ActionLink("Details", "Details", "Product", new { id = item.ProductId }, new { @class = "btn btn-success" })
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", "Product", new { id = item.ProductId }, new { @class = "btn btn-info" })
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "DeletebyId", "Product", new { id = item.ProductId }, new { @class = "btn btn-danger" })
+
+            </td>
+        </tr>
+    }
+</table>
+
+
+
+<div class="pagination btn-group">
+    @if (ViewBag.CurrentPage > 1)
+    {
+        @Html.ActionLink("Previous", "getdata", new { pageNumber = ViewBag.CurrentPage - 1, pageSize = 10 }, new { @class = "btn btn-dark" })
+    }
+
+    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+    {
+        var cssClass = i == ViewBag.CurrentPage ? "btn btn-primary active" : "btn btn-dark";
+        @Html.ActionLink(i.ToString(), "getdata", new { pageNumber = i, pageSize = ViewBag.PageSize }, new { @class = cssClass })
+    }
+
+    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+    {
+        @Html.ActionLink("Next", "getdata", new { pageNumber = ViewBag.CurrentPage + 1, pageSize = 10 }, new { @class = "btn btn-dark" })
+    }
+</div>

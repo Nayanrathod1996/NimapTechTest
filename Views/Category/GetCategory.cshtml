@@ -1,0 +1,84 @@
+﻿@model List<NimaApp.Models.CategoryMaster>
+@{
+    ViewBag.Title = "GetCategory";
+}
+
+@if (TempData["Massage"] != null)
+ {
+  <div class="alert alert-success alert-dismissible">
+   <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+   <strong>@TempData["Massage"]</strong>
+  </div>
+ }
+
+@if (TempData["massageupdate"] != null)
+ {
+<div class="alert alert-success alert-dismissible">
+<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+<strong>@TempData["massageupdate"]</strong>
+</div>
+ }
+@if (TempData["deletemassage"] != null)
+ {
+<div class="alert alert-danger alert-dismissible">
+<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+<strong>@TempData["deletemassage"]</strong>
+</div>
+ }
+
+
+<table class="table table-dark table-bordered table-hover ">
+    
+    <th>
+        Category Id
+    </th>
+    <th>Category Name</th>
+    <th>Details</th>
+    <th>Delete</th>
+    <th>Edit</th>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr class="tab">
+                <td>
+                    @item.CategoryId
+                </td>
+                <td>@item.CategoryName</td>
+
+                <td>
+                    @Html.ActionLink("Details", "Details", "Category", new { id = item.CategoryId }, new { @class = "btn btn-success" })
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "DeleteCategory", "Category", new { id = item.CategoryId }, new { @class = "btn btn-danger" })
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditCategory", "Category", new { id = item.CategoryId }, new { @class = "btn btn-info" })
+                </td>
+                 
+            </tr>
+        }
+
+    </tbody>
+
+
+</table>
+
+
+<div class="pagination">
+    @if (ViewBag.CurrentPage > 1)
+    {
+        @Html.ActionLink("Previous", "GetCategory", new { pageNumber = ViewBag.CurrentPage - 1, pageSize = ViewBag.PageSize }, new { @class = "btn btn-dark" })
+    }
+
+    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+    {
+        var cssClass = i == ViewBag.CurrentPage ? "btn btn-primary active" : "btn btn-dark";
+        @Html.ActionLink(i.ToString(), "GetCategory", new { pageNumber = i, pageSize = ViewBag.PageSize }, new { @class = cssClass })
+    }
+
+    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+    {
+        @Html.ActionLink("Next", "GetCategory", new { pageNumber = ViewBag.CurrentPage + 1, pageSize = ViewBag.PageSize }, new { @class = "btn btn-dark" })
+    }
+</div>
