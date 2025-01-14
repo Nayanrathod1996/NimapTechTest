@@ -9,6 +9,7 @@ namespace NimaApp.CommanFunction
 {
     public class Commanfun
     {
+//for  pagination
         public int GetTotalProductCount()
         {
             int totalCount = 0;
@@ -26,6 +27,7 @@ namespace NimaApp.CommanFunction
             return totalCount;
         }
 
+//For  connection with Database
         public string ConnectionString()
         {
 

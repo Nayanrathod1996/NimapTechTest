@@ -18,15 +18,14 @@ namespace NimaApp.Controllers
 
       DbContextProdcm DbContextProdcm=new DbContextProdcm();
 
+        //This is deta retrive method 
+        [HttpGet]
         public ActionResult getdata(int pageNumber = 1, int pageSize = 10)
         {
             int offset = (pageNumber - 1) * pageSize;
             List<ProductMaster> products = new List<ProductMaster>();
 
-            // Define your connection string here
-            string cs = ConfigurationManager.ConnectionStrings["dbms"].ConnectionString;
-
-            using (var conn = new SqlConnection(cs))
+            using (var conn = new SqlConnection(Commanfun.ConnectionString()))
             {
                 using (var cmd = new SqlCommand("GetDataTwo", conn))
                 {
@@ -52,7 +51,6 @@ namespace NimaApp.Controllers
                 }
             }
 
-            
             int totalCount = Commanfun.GetTotalProductCount();
             int totalPages = (int)Math.Ceiling((double)totalCount / pageSize);
 
@@ -62,20 +60,13 @@ namespace NimaApp.Controllers
             return View(products);
         }
 
-        
 
-
-
-
-
-
-        // get Categories 
+        // This Method Use For Add Product 
+        [HttpGet]
         public ActionResult CreateProduct() 
         {
             List<CategoryMaster> categories = new List<CategoryMaster>();
-            string connectionString = ConfigurationManager.ConnectionStrings["dbms"].ConnectionString;
-
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (SqlConnection conn = new SqlConnection(Commanfun.ConnectionString()))
             {
                 using (SqlCommand cmd = new SqlCommand("GetCategories", conn))
                 {
@@ -97,12 +88,11 @@ namespace NimaApp.Controllers
             // Send categories to the view using ViewBag
             ViewBag.Categories = new SelectList(categories, "CategoryId", "CategoryName");
 
-
-
-
             return View();
         }
 
+
+           //This is post method Add product
         [HttpPost]
         public ActionResult CreateProduct(ProductMaster product)
         {
@@ -120,7 +110,7 @@ namespace NimaApp.Controllers
             }
         }
 
-        //Delete Product
+        // this method use for Delete Product by Id
 
         [HttpGet]
         public ActionResult DeletebyId(int id)
@@ -134,13 +124,15 @@ namespace NimaApp.Controllers
             return RedirectToAction("getdata");
         }
 
+
+         //this  method use for get data by id and Update 
         [HttpGet]
         public ActionResult Edit(int id) 
         {
             List<CategoryMaster> categories = new List<CategoryMaster>();
-            string connectionString = ConfigurationManager.ConnectionStrings["dbms"].ConnectionString;
+            //string connectionString = ConfigurationManager.ConnectionStrings["dbms"].ConnectionString;
 
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (SqlConnection conn = new SqlConnection(Commanfun.ConnectionString()))
             {
                 using (SqlCommand cmd = new SqlCommand("GetCategories", conn))
                 {
@@ -170,7 +162,7 @@ namespace NimaApp.Controllers
         
         return View(list);
         }
-
+        //use  for update 
         [HttpPost]
         public ActionResult Edit(ProductMaster productMaster) 
         {
@@ -186,7 +178,7 @@ namespace NimaApp.Controllers
             }
         }
 
-
+        //this  method use for Show Product Details
         [HttpGet]
         public ActionResult Details(int id) 
         { 
@@ -194,12 +186,6 @@ namespace NimaApp.Controllers
                 
         return View(details);
         }
-
-
-
-
-
-
 
     }
 }

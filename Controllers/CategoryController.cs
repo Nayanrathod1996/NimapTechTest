@@ -8,6 +8,7 @@ using System.Drawing.Printing;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Microsoft.Ajax.Utilities;
 
 namespace NimaApp.Controllers
 {
@@ -30,7 +31,7 @@ namespace NimaApp.Controllers
             return View(categories);
         }
 
-        //insert Category
+        //insert Category Get Method 
 
         [HttpGet]
         public ActionResult CreateCategory()
@@ -39,6 +40,8 @@ namespace NimaApp.Controllers
 
             return View();
         }
+
+        // insert Post Method
         [HttpPost]
         public ActionResult CreateCategory(CategoryMaster categoryMaster)
         {
@@ -63,7 +66,7 @@ namespace NimaApp.Controllers
 
            
         }
-
+        // Delete Action Method To Delete Data 
         public ActionResult DeleteCategory(int id)
         {
             var datedelte = _dbContext.DeleteCategory(id);
@@ -78,6 +81,8 @@ namespace NimaApp.Controllers
             }
         }
 
+//This Method for get the data by id
+
         [HttpGet]
         public ActionResult EditCategory(int id)
         {
@@ -85,6 +90,9 @@ namespace NimaApp.Controllers
 
             return View(list);
         }
+
+
+        //update post Method
         [HttpPost]
         public ActionResult EditCategory(CategoryMaster categoryMaster)
         {
@@ -103,6 +111,9 @@ namespace NimaApp.Controllers
             }
 
         }
+
+
+        // Get Details by Id
         [HttpGet]
         public ActionResult Details(int id)
         {

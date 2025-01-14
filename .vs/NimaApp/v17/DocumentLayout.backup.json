@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\nayan\\source\\repos\\NimaApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\models\\dbcontextprodcm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\dbcontextprodcm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\models\\productmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\productmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\commanfunction\\commanfun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:commanfunction\\commanfun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|c:\\users\\nayan\\source\\repos\\nimaapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\models\\productmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\productmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\category\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\models\\categorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\categorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|C:\\Users\\nayan\\source\\repos\\NimaApp\\views\\product\\getdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7358EE6-25B2-4AE6-9023-016665DAE9AB}|NimaApp.csproj|solutionrelative:views\\product\\getdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,19 +70,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbContextProdcm.cs",
+              "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Models\\DbContextProdcm.cs",
+              "RelativeDocumentMoniker": "Models\\DbContextProdcm.cs",
+              "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Models\\DbContextProdcm.cs",
+              "RelativeToolTip": "Models\\DbContextProdcm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:57:39.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Commanfun.cs",
+              "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\CommanFunction\\Commanfun.cs",
+              "RelativeDocumentMoniker": "CommanFunction\\Commanfun.cs",
+              "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\CommanFunction\\Commanfun.cs",
+              "RelativeToolTip": "CommanFunction\\Commanfun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:56:31.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:45:25.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductMaster.cs",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Models\\ProductMaster.cs",
               "RelativeDocumentMoniker": "Models\\ProductMaster.cs",
               "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Models\\ProductMaster.cs",
               "RelativeToolTip": "Models\\ProductMaster.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:51:43.138Z"
+              "WhenOpened": "2025-01-14T12:51:43.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Views\\Category\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\Details.cshtml",
@@ -82,11 +130,12 @@
               "RelativeToolTip": "Views\\Category\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T12:15:31.057Z"
+              "WhenOpened": "2025-01-14T12:15:31.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -98,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CreateCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Views\\Category\\CreateCategory.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\CreateCategory.cshtml",
@@ -111,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CategoryMaster.cs",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Models\\CategoryMaster.cs",
               "RelativeDocumentMoniker": "Models\\CategoryMaster.cs",
@@ -123,13 +172,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CreateProduct.cshtml",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Views\\Product\\CreateProduct.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\CreateProduct.cshtml",
               "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Views\\Product\\CreateProduct.cshtml",
               "RelativeToolTip": "Views\\Product\\CreateProduct.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAEBlwAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAOBvwAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-14T11:25:44.728Z",
               "EditorCaption": ""
@@ -142,13 +191,14 @@
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAuwDoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T11:15:43.012Z"
+              "WhenOpened": "2025-01-14T11:15:43.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "getdata.cshtml",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Views\\Product\\getdata.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\getdata.cshtml",
@@ -161,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "GetCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Views\\Category\\GetCategory.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\GetCategory.cshtml",
@@ -174,27 +224,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "DbContext.cs",
               "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Models\\DbContext.cs",
               "RelativeDocumentMoniker": "Models\\DbContext.cs",
               "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Models\\DbContext.cs",
               "RelativeToolTip": "Models\\DbContext.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwFUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T10:14:50.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\nayan\\source\\repos\\NimaApp\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAuwL4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T08:01:13.572Z",
+              "WhenOpened": "2025-01-14T10:14:50.108Z",
               "EditorCaption": ""
             }
           ]
