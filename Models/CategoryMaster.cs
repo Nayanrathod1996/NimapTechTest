@@ -12,7 +12,8 @@ namespace NimaApp.Models
             public int CategoryId { get; set; }
 
              [Display(Name ="Add Category")]
-             [Required]
+             [Required(ErrorMessage ="Category Name Is Required")]
+        
             public string CategoryName { get; set; }
     }
 }

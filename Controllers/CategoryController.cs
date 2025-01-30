@@ -41,31 +41,43 @@ namespace NimaApp.Controllers
             return View();
         }
 
+
         // insert Post Method
         [HttpPost]
         public ActionResult CreateCategory(CategoryMaster categoryMaster)
         {
             if (ModelState.IsValid)
             {
-                var data = _dbContext.CreateCategory(categoryMaster);
-                if (data != null)
+
+                if (commanfun.GetCategoryCount(categoryMaster) <= 0)
                 {
-                    TempData["Massage"] = "Category Add Successfully";
-                    return RedirectToAction("GetCategory");
+                    var data = _dbContext.CreateCategory(categoryMaster);
+                    if (data != null)
+                    {
+                        TempData["Massage"] = "Category Add Successfully";
+                        return RedirectToAction("GetCategory");
+                    }
+                    else
+                    {
+                        return View();
+                    }
+
                 }
                 else
                 {
+                    TempData["ErrorCheck"] = "Category Already Present";
                     return View();
-
                 }
             }
             else
             {
                 return View();
             }
+        }
+           
 
            
-        }
+        
         // Delete Action Method To Delete Data 
         public ActionResult DeleteCategory(int id)
         {

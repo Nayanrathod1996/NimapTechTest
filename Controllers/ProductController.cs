@@ -42,10 +42,13 @@ namespace NimaApp.Controllers
                     {
                         products.Add(new ProductMaster
                         {
+
                             ProductId = Convert.ToInt32(reader["ProductId"]),
                             ProductName = reader["ProductName"].ToString(),
-                            CategoryId = Convert.ToInt32(reader["CategoryId"]),
-                            CategoryName = reader["CategoryName"].ToString()
+                            CategoryId = reader["CategoryId"] == DBNull.Value ? 0 : Convert.ToInt32(reader["CategoryId"]),
+                            //CategoryName = reader["CategoryName"].ToString()
+
+                            CategoryName = reader["CategoryName"] == DBNull.Value ? "Uncategorized" : reader["CategoryName"].ToString()
                         });
                     }
                 }
@@ -96,19 +99,22 @@ namespace NimaApp.Controllers
         [HttpPost]
         public ActionResult CreateProduct(ProductMaster product)
         {
-            var s = DbContextProdcm.CreateCategory(product);
+           
+                var s = DbContextProdcm.CreateCategory(product);
 
-            if (s!= null)
-            {
-                TempData["CreateProduct"] = "Product Add successfully";
-                
-                return RedirectToAction("getdata");  
-            }
-            else
-            {
-                return View();
-            }
+                if (s != null)
+                {
+                    TempData["CreateProduct"] = "Product Add successfully";
+
+                    return RedirectToAction("getdata");
+                }
+                else
+                {
+                    return View();
+                }
+
         }
+   
 
         // this method use for Delete Product by Id
 

@@ -10,15 +10,16 @@ namespace NimaApp.Models
     {
             [Display(Name = "Product Id")]
             [Required]
-            public int ProductId { get; set; }
-            [Required]
+            public int? ProductId { get; set; }
+            [Required(ErrorMessage ="Product Name Is Required")]
             [Display(Name="Product Name")]
             public string ProductName { get; set; }
             [Display(Name = "Category Id")]
-            [Required]
-            public int CategoryId { get; set; }
+            
+            public int? CategoryId  { get; set; }
+
            [Display(Name = "Category Name")]
-           [Required]
+           [Required(ErrorMessage="Category Name Is Required")]
            public string CategoryName { get; set; }
 
        
